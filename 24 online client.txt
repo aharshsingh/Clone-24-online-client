@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: linear-gradient(45deg, #ffba80, #ffaead, #ffb3df, #d0c2fe, #9dd0ff);
+            height: 100vh;
+        }
+        
+        div {
+            margin-top: 150px;
+            margin-left: 600px;
+            margin-right: 600px;
+            background-image: linear-gradient(45deg, white, rgb(131, 185, 255));
+            border-top-left-radius: 20%;
+            border-bottom-right-radius: 20%;
+        }
+        
+        #b1 {
+            margin-top: 80px;
+            margin-left: 250px;
+            padding: 10px;
+            background-color: rgb(71, 71, 252);
+            border-radius: 5px;
+            color: white;
+            text-align: justify;
+            border: 0px;
+        }
+        
+        #b2 {
+            margin-top: 30px;
+            margin-left: 319px;
+            padding: 10px;
+            background-color: rgb(106, 143, 247);
+            border-radius: 5px;
+            color: white;
+            text-align: center;
+            border: 0px;
+        }
+        
+        img {
+            margin-top: 110px;
+            margin-left: 230px;
+            width: 230px;
+            height: 110px;
+        }
+        
+        #p1 {
+            margin-top: 25px;
+            text-align: center;
+            font-weight: 520;
+        }
+        
+        #p2 {
+            margin-top: 2px;
+            text-align: center;
+            font-weight: 520;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <img src="R.png" alt="Logo of LPU"><br>
+        <input id="b1" type="button" value="Click here to check your usage">
+        <p id="p1">
+            NOTE:- Dear Users, Please Logout your current session properly before moving to new location.
+        </p>
+        <input id="b2" type="button" value="Logout"><br><br>
+        <p id="p2">
+            To start surfing, Minimize this login window and open a new browser window.<br> Please do not close this Window without logging out
+        </p><br><br><br><br><br>
+    </div>
+</body>
+
+</html>
